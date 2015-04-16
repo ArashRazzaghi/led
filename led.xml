@@ -3,8 +3,8 @@
     <next>
       <block type="controls_repeat" id="1" inline="true">
         <value name="TIMES">
-          <block type="math_number" id="2">
-            <field name="NUM">10000000</field>
+          <block type="math_number" id="35">
+            <field name="NUM">10000000000000000000</field>
           </block>
         </value>
         <statement name="DO">
