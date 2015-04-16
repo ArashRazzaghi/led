@@ -1,1 +1,59 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_repeat" id="54" inline="true" x="51" y="-14">
+    <value name="TIMES">
+      <block type="math_number" id="175">
+        <field name="NUM">10000000</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="led_select" id="204" inline="true">
+        <field name="ACTION">FLASH</field>
+        <value name="LED">
+          <block type="math_number" id="179">
+            <field name="NUM">1</field>
+          </block>
+        </value>
+        <next>
+          <block type="led_select" id="203" inline="true">
+            <field name="ACTION">FLASH</field>
+            <value name="LED">
+              <block type="math_number" id="177">
+                <field name="NUM">2</field>
+              </block>
+            </value>
+            <next>
+              <block type="led_select" id="207" inline="true">
+                <field name="ACTION">FLASH</field>
+                <value name="LED">
+                  <block type="math_number" id="174">
+                    <field name="NUM">3</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="led_select" id="205" inline="true">
+                    <field name="ACTION">FLASH</field>
+                    <value name="LED">
+                      <block type="math_number" id="178">
+                        <field name="NUM">4</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="led_select" id="206" inline="true">
+                        <field name="ACTION">FLASH</field>
+                        <value name="LED">
+                          <block type="math_number" id="176">
+                            <field name="NUM">5</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
